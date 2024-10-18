@@ -3,6 +3,7 @@ const msgs = document.getElementById("msgs");
 const presence = document.getElementById("presence-indicator");
 
 // this will hold all the most recent messages
+/** @type {import("../../../common/types.d.ts").Message[]} */
 let allChat = [];
 
 chat.addEventListener("submit", function (e) {

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "Node",
+        "moduleDetection": "force",
+        "target": "esnext",
+        "checkJs": true,
+        "allowJs": true,
+        "types": [
+            "node",
+            "dom"
+        ]
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
