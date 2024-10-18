@@ -8,6 +8,7 @@ let allChat = [];
 // the interval to poll at in milliseconds
 const INTERVAL = 3000;
 
+//
 // a submit listener on the form in the HTML
 chat.addEventListener("submit", function (e) {
     e.preventDefault();
